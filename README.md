@@ -1,1 +1,1 @@
-# InnoWeeks_2024
+# 💡 InnoWeeks_2024
