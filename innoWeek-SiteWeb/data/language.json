@@ -57,6 +57,23 @@
         "TypeScript",
         "VHDL",
         "Visual Basic",
-        "Zig"
+        "Zig",
+        "Angular",
+        "Backbone",
+        "Django",
+        "Ember",
+        "Express",
+        "Flask",
+        "Laravel",
+        "Meteor",
+        "Next.js",
+        "Nuxt.js",
+        "Rails",
+        "React",
+        "Spring",
+        "Svelte",
+        "Symfony",
+        "Vue",
+        "Zend"
     ]
 }
