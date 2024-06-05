@@ -2,7 +2,55 @@
   "formations": [
     {
       "id": 1,
-      "title": "Développeur Web",
+      "title": "HTML les bases",
+      "description": "Apprenez à créer des sites web modernes statiques avec HTML",
+      "monthDuration": 4,
+      "difficulty": "Débutant",
+      "euroPrice": 1500,
+      "premium": false,
+      "deprecated": false,
+      "programmingLanguageUsed": [
+        "HTML"
+      ],
+      "acquiredCompetence": [
+        "HTML",
+        "Création de site web statique"
+      ],
+      "languageRequirements": [],
+      "image": "https://th.bing.com/th/id/OIP.Mrb8EiYMlvcRFQY384KEHwHaKd?w=137&h=194&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction au HTML",
+          "description": "Comprendre les bases du HTML et comment structurer une page web."
+        },
+        {
+          "module_id": 2,
+          "title": "Particularité du HTML",
+          "description": "Apprenez à utiliser le HTML à son plus haut niveau"
+        },
+        {
+          "module_id": 3,
+          "title": "Projets Web",
+          "description": "Appliquer les connaissances acquises dans des projets concrets."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Mock data",
+          "mail": "mock.data@example.com"
+        },
+        {
+          "fullName": "Marie Curie",
+          "mail": "marie.curie@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "CSS les bases",
       "description": "Apprenez à créer des sites web modernes statiques avec HTML et CSS",
       "monthDuration": 4,
       "difficulty": "Débutant",
@@ -19,25 +67,79 @@
         "Création de site web responsif",
         "Création de site web statique"
       ],
-      "languageRequirements": [],
-      "image": "https://example.png",
+      "languageRequirements": ["HTML"],
+      "image": "https://th.bing.com/th/id/R.7c12764796349bfb505d4c5d73489c3d?rik=bM4AFS0UAqY17g&pid=ImgRaw&r=0",
       "recognisedCertificate": true,
       "url": "https://example.com",
       "modules": [
         {
           "module_id": 1,
-          "title": "Introduction au HTML",
-          "description": "Comprendre les bases du HTML et comment structurer une page web."
+          "title": "Introduction au CSS",
+          "description": "Comprendre les bases du CSS et comment structurer une page web."
         },
         {
           "module_id": 2,
-          "title": "CSS pour le Design Web",
+          "title": "Particularité du CSS",
           "description": "Apprenez à styliser des pages web avec CSS."
         },
         {
           "module_id": 3,
-          "title": "Projets Web",
+          "title": "Projets CSS",
           "description": "Appliquer les connaissances acquises dans des projets concrets."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Mock data",
+          "mail": "mock.data@example.com"
+        },
+        {
+          "fullName": "Marie Curie",
+          "mail": "marie.curie@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "javascript les bases",
+      "description": "Apprenez à créer des sites web modernes statiques avec HTML, CSS et Javascript",
+      "monthDuration": 4,
+      "difficulty": "Débutant moyen",
+      "euroPrice": 1500,
+      "premium": false,
+      "deprecated": false,
+      "programmingLanguageUsed": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "acquiredCompetence": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Création de site web responsif",
+        "Création de site web statique",
+        "Création de site web dynamique"
+      ],
+      "languageRequirements": [],
+      "image": "https://th.bing.com/th?id=OIP.9jAkFPGpe5YO-8RM0Le_XgHaIa&w=234&h=266&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction au Javascript",
+          "description": "Comprendre les bases du Javascript et comment l'utiliser dans une page web."
+        },
+        {
+          "module_id": 2,
+          "title": "Javascript pour le site dynamique",
+          "description": "Enclencher des éléments avec le javascript"
+        },
+        {
+          "module_id": 3,
+          "title": "Dessiner en javascript",
+          "description": "Utilisation du canva pour faire des jolis dessins."
         }
       ],
       "instructors": [
