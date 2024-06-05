@@ -1,0 +1,47 @@
+{
+    "formations": [
+      {
+        "id": 1,
+        "title": "Développeur Web",
+        "description": "Apprenez à créer des sites web modernes statiques avec HTML et CSS",
+        "monthDuration": 4,
+        "difficulty": "Débutant",
+        "euroPrice": 1500,
+        "premium": false,
+        "deprecated": false,
+        "programmingLanguageUsed": ["HTML", "CSS"],
+        "acquiredCompetence": ["HTML", "CSS", "Création de site web responsif", "Création de site web statique"],
+        "languageRequirements": [],
+        "image": "https://example.png",
+        "recognisedCertificate": true,
+        "url": "https://example.com",
+        "modules": [
+          {
+            "module_id": 1,
+            "title": "Introduction au HTML",
+            "description": "Comprendre les bases du HTML et comment structurer une page web."
+          },
+          {
+            "module_id": 2,
+            "title": "CSS pour le Design Web",
+            "description": "Apprenez à styliser des pages web avec CSS."
+          },
+          {
+            "module_id": 3,
+            "title": "Projets Web",
+            "description": "Appliquer les connaissances acquises dans des projets concrets."
+          }
+        ],
+        "instructors": [
+          {
+            "fullName": "Mock data",
+            "mail": "mock.data@example.com"
+          },
+          {
+            "fullName": "Marie Curie",
+            "mail": "marie.curie@example.com"
+          }
+        ]
+      }
+    ]
+  }
