@@ -1,7 +1,6 @@
 <script setup>
     import formation from '~/data/formation.json'
     const items = ref(formation.formations)
-    console.log(items.value)
 </script>
 
 <template>

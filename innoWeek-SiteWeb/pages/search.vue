@@ -8,9 +8,10 @@
     }">
 
       <template #header> Étape {{ step }} </template>
-      <USelectMenu v-if="step == 1" v-model="technology" :options="exemple" multiple placeholder="Select technologie" />
-      <USelectMenu v-if="step == 2" v-model="technology2" :options="exemple" multiple placeholder="Select other" />
-      <USelectMenu v-if="step == 3" v-model="technology3" :options="exemple" multiple placeholder="Select other 2" />
+      <USelectMenu v-if="step == 1" v-model="technology" :options="programLanguage" multiple placeholder="Select technologie" 
+      searchable searchable-placeholder="Search a technology..." />
+      <USelectMenu v-if="step == 2" v-model="technology2" :options="programLanguage" multiple placeholder="Select other" />
+      <USelectMenu v-if="step == 3" v-model="technology3" :options="programLanguage" multiple placeholder="Select other 2" />
       <template #footer>
         <div class="flex justify-between">
           <UButton :disabled="step == 1" @click="previous" color="black">Previous</UButton>
@@ -27,8 +28,9 @@
 
 <script setup>
 import { ref } from 'vue';
+import language from '~/data/language.json'
 
-const exemple = ['React', 'Vue', 'Angular', 'Express', 'Node', 'Mysql', 'MongoDB', 'PhpMyAdmin', 'Docker']
+const programLanguage = language.programmingLanguages
 
 const technology  = ref([])
 const technology2 = ref([])
