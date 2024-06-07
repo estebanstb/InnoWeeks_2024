@@ -36,7 +36,7 @@ const items = ref(formation.formations)
                         </defs>
                         <path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTCrownThree0)"></path>
                     </svg>
-                    <NuxtLink class="placement">
+                    <NuxtLink class="placement" :to="{ name: 'formation-id', params: { id: item.id } }">
                         <UButton class="blue-color-bg">
                             Voir
                         </UButton>
