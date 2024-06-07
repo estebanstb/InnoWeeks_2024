@@ -1,0 +1,25 @@
+{
+    "users": [
+      {
+        "user_id": 1,
+        "nickname": "Midicix",
+        "password": "strongPassword",
+        "formation_finished": [],
+        "current_formation": []
+      },
+      {
+        "user_id": 2,
+        "nickname": "TechGuru",
+        "password": "securePass123",
+        "formation_finished": [1, 3],
+        "current_formation": [4]
+      },
+      {
+        "user_id": 3,
+        "nickname": "CoderMaster",
+        "password": "password321",
+        "formation_finished": [2],
+        "current_formation": [3, 5]
+      }
+    ]
+}
