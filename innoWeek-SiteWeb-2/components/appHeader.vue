@@ -14,7 +14,7 @@
             </li>
             <li>
                 <NuxtLink to="/search">
-                    Recherche personnaliser
+                    Recherche personnalisé
                 </NuxtLink>
             </li>
             <li>
