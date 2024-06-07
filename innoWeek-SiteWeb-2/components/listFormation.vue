@@ -10,7 +10,7 @@ const props = defineProps({
     <div>
         <h2 class="font-bold text-6xl">{{ title }}</h2>
         <UCard v-for="item in formation" :key="item.id" class="black-bg">
-            <div class="flex justify-between" >
+            <div class="flex justify-between">
                 <div class="flex">
                     <img :src="item.image" class="w-28 mr-8" alt="">
                     <div>
@@ -23,8 +23,10 @@ const props = defineProps({
                     </div>
                 </div>
                 <div class="flex flex-collum">
-                    <img v-if="item.premium" src="../public/crown.png" alt="premium">
-                        
+                    <div class="crown-container">
+                        <img v-if="item.premium" src="../public/crown.png" alt="premium" class="crown">
+                    </div>
+
                     <NuxtLink class="placement" :to="{ name: 'formation-id', params: { id: item.id } }">
                         <UButton class="blue-color-bg">
                             Voir
@@ -38,6 +40,15 @@ const props = defineProps({
 </template>
 
 <style scoped>
+.crown-container {
+
+}
+
+.crown {
+    height: 30px;
+    width: auto
+}
+
 .black-bg {
     background-color: #151967;
     margin-bottom: 75px;
@@ -47,13 +58,16 @@ const props = defineProps({
 .placement {
     align-self: flex-end;
     justify-self: flex-end;
-    margin-top: auto; /* Ajouté pour pousser le bouton vers le bas */
+    margin-top: auto;
+    /* Ajouté pour pousser le bouton vers le bas */
 }
 
 .flex-collum {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ajouté pour répartir l'espace */
-    height: 100%; /* Ajouté pour s'assurer que l'élément prend toute la hauteur */
+    justify-content: space-between;
+    /* Ajouté pour répartir l'espace */
+    height: 100%;
+    /* Ajouté pour s'assurer que l'élément prend toute la hauteur */
 }
 </style>
