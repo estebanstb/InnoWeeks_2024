@@ -1,12 +1,22 @@
 <script setup>
 import formation from '~/data/formation.json'
 import { useRouter } from 'vue-router';
+import { onMounted } from 'vue';
 
 const router = useRouter();
-const items = ref(formation.formations)
+const items = ref([])
+
+onMounted(() => {
+    formation.formations.forEach((element) => {
+        if(element.id < 4)
+        {
+            items.value.push(element)
+        }
+    })
+})
 
 function goToDetails(id) {
-    router.push({ path: `/${id}` });
+    router.push({ path: `/formation/${id}` });
 }
 </script>
 <template>
@@ -14,10 +24,13 @@ function goToDetails(id) {
         <h1>Les formations les plus populaires</h1>
         <div class="cards">
             <div v-for="item in items" :key="item.id" class="card">
-                <h2>{{ item.title }}</h2>
+                <div v-if="item.premium">
+                    <img id="crown" src="../public/crown.png">
+                </div>
+                <h2 :class="item.premium ? 'card-title-premium' : 'card-title'">{{ item.title }}</h2>
                 <img :src="item.image" alt="logo formation" class="logo_formation">
                 <div class="arrow" @click="goToDetails(item.id)">
-                    <a href="#">
+                    <a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z">
                             </path>
@@ -30,9 +43,20 @@ function goToDetails(id) {
 
 </template>
 <style scoped>
-h2 {
+.arrow:hover {
+    cursor: pointer;
+}
+#crown {
+    height: 25px;
+    margin-left: 173px;
+    margin-top: -10px;
+}
+.card-title {
     margin-bottom: 33px;
     margin-top: 33px;
+}
+.card-title-premium {
+    margin-bottom: 33px;
 }
 .arrow {
     padding: 10px;
