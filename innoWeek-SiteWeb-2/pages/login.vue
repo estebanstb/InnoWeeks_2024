@@ -1,10 +1,14 @@
 <template>
-    <div class="login-container">
-        <UInput color="gray" variant="outline" placeholder="Pseudo" v-model="pseudo" class="input"/>
-        <UInput color="gray" variant="outline" placeholder="Mot de passe" v-model="password" class="input"/>
-        <button @click="control">Se connecter</button>
+    <div class="height flex items-center">
+        <div class="login-container">
+            <h1>Connexion</h1>
+            <UInput color="gray" variant="outline" placeholder="Pseudo" v-model="pseudo" class="input" />
+            <UInput color="gray" variant="outline" placeholder="Mot de passe" v-model="password" class="input" />
+            <button @click="control">Se connecter</button>
+        </div>
     </div>
-</template>
+
+</template> 
 
 <script setup>
 import { onMounted, ref } from 'vue';
@@ -70,11 +74,10 @@ button:hover {
 }
 .input {
     background-color: #094749;
+    margin-top: 10px
 }
-UInput {
-    background-color: #0C595E;
-}
-UInput.input {
-    background-color: #0C595E;
+
+.height{
+    height: 80vh;
 }
 </style>
