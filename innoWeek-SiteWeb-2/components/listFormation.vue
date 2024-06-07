@@ -23,22 +23,8 @@ const props = defineProps({
                     </div>
                 </div>
                 <div class="flex flex-collum">
-                    <svg v-if="item.premium" class="justify-items-start" xmlns="http://www.w3.org/2000/svg" fill="red" width="3em" height="3em"
-                        viewBox="0 0 48 48">
-                        <defs>
-                            <mask id="ipTCrownThree0">
-                                <g fill="#FFF" stroke="#FFF" stroke-width="4">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M13 42h22l6-21l-10 5l-7-14l-7 14l-10-5z">
-                                    </path>
-                                    <circle cx="7" cy="18" r="3"></circle>
-                                    <circle cx="24" cy="9" r="3"></circle>
-                                    <circle cx="41" cy="18" r="3"></circle>
-                                </g>
-                            </mask>
-                        </defs>
-                        <path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTCrownThree0)"></path>
-                    </svg>
+                    <img v-if="item.premium" src="../public/crown.png" alt="premium">
+                        
                     <NuxtLink class="placement" :to="{ name: 'formation-id', params: { id: item.id } }">
                         <UButton class="blue-color-bg">
                             Voir

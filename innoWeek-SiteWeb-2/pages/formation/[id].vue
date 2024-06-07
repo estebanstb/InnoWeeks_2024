@@ -102,13 +102,13 @@ function goToWebSite(url) {
 
 @keyframes defilement-rtl {
     0% {
-        transform: translate3d(90%, 0, 0);
+        transform: translate3d(100%, 0, 0);
         /* position final à droite */
 
     }
 
     100% {
-        transform: translate3d(-20%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
         /* position initiale à gauche */
 
     }
@@ -206,6 +206,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 #description {
