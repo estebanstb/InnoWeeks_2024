@@ -1,21 +1,15 @@
 <script setup>
-import formation from '~/data/formation.json'
-const items = ref([])
-
-onMounted(() => {
-    formation.formations.forEach((element) => {
-        if(element.id < 4)
-        {
-            items.value.push(element)
-        }
-    })
+const props = defineProps({
+    formation: Array,
+    title: String
 })
+
 </script>
 
 <template>
     <div>
-        <h2 class="font-bold text-6xl">Top formations</h2>
-        <UCard v-for="item in items" :key="item.id" class="black-bg">
+        <h2 class="font-bold text-6xl">{{ title }}</h2>
+        <UCard v-for="item in formation" :key="item.id" class="black-bg">
             <div class="flex justify-between" >
                 <div class="flex">
                     <img :src="item.image" class="w-28 mr-8" alt="">
