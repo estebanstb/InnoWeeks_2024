@@ -9,13 +9,8 @@
       "euroPrice": 1500,
       "premium": false,
       "deprecated": false,
-      "programmingLanguageUsed": [
-        "HTML"
-      ],
-      "acquiredCompetence": [
-        "HTML",
-        "Création de site web statique"
-      ],
+      "programmingLanguageUsed": ["HTML"],
+      "acquiredCompetence": ["HTML", "Création de site web statique"],
       "languageRequirements": [],
       "image": "https://th.bing.com/th/id/OIP.Mrb8EiYMlvcRFQY384KEHwHaKd?w=137&h=194&c=7&r=0&o=5&dpr=1.5&pid=1.7",
       "recognisedCertificate": true,
@@ -55,18 +50,10 @@
       "monthDuration": 4,
       "difficulty": "Débutant",
       "euroPrice": 1500,
-      "premium": false,
+      "premium": true,
       "deprecated": false,
-      "programmingLanguageUsed": [
-        "HTML",
-        "CSS"
-      ],
-      "acquiredCompetence": [
-        "HTML",
-        "CSS",
-        "Création de site web responsif",
-        "Création de site web statique"
-      ],
+      "programmingLanguageUsed": ["HTML", "CSS"],
+      "acquiredCompetence": ["HTML", "CSS", "Création de site web responsif", "Création de site web statique"],
       "languageRequirements": ["HTML"],
       "image": "https://th.bing.com/th/id/R.7c12764796349bfb505d4c5d73489c3d?rik=bM4AFS0UAqY17g&pid=ImgRaw&r=0",
       "recognisedCertificate": true,
@@ -101,26 +88,15 @@
     },
     {
       "id": 3,
-      "title": "javascript les bases",
-      "description": "Apprenez à créer des sites web modernes statiques avec HTML, CSS et Javascript",
+      "title": "JavaScript les bases",
+      "description": "Apprenez à créer des sites web modernes avec HTML, CSS et JavaScript",
       "monthDuration": 4,
       "difficulty": "Débutant moyen",
       "euroPrice": 1500,
       "premium": false,
       "deprecated": false,
-      "programmingLanguageUsed": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ],
-      "acquiredCompetence": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Création de site web responsif",
-        "Création de site web statique",
-        "Création de site web dynamique"
-      ],
+      "programmingLanguageUsed": ["HTML", "CSS", "JavaScript"],
+      "acquiredCompetence": ["HTML", "CSS", "JavaScript", "Création de site web responsif", "Création de site web statique", "Création de site web dynamique"],
       "languageRequirements": [],
       "image": "https://th.bing.com/th?id=OIP.9jAkFPGpe5YO-8RM0Le_XgHaIa&w=234&h=266&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
       "recognisedCertificate": true,
@@ -128,18 +104,18 @@
       "modules": [
         {
           "module_id": 1,
-          "title": "Introduction au Javascript",
-          "description": "Comprendre les bases du Javascript et comment l'utiliser dans une page web."
+          "title": "Introduction au JavaScript",
+          "description": "Comprendre les bases du JavaScript et comment l'utiliser dans une page web."
         },
         {
           "module_id": 2,
-          "title": "Javascript pour le site dynamique",
-          "description": "Enclencher des éléments avec le javascript"
+          "title": "JavaScript pour sites dynamiques",
+          "description": "Apprenez à créer des interactions dynamiques avec JavaScript."
         },
         {
           "module_id": 3,
-          "title": "Dessiner en javascript",
-          "description": "Utilisation du canva pour faire des jolis dessins."
+          "title": "Dessiner avec JavaScript",
+          "description": "Utilisation de Canvas pour créer des dessins interactifs."
         }
       ],
       "instructors": [
@@ -152,6 +128,930 @@
           "mail": "marie.curie@example.com"
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "Python pour les débutants",
+      "description": "Apprenez les bases de la programmation avec Python",
+      "monthDuration": 6,
+      "difficulty": "Débutant",
+      "euroPrice": 2000,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["Python"],
+      "acquiredCompetence": ["Python", "Programmation de base", "Automatisation de tâches"],
+      "languageRequirements": [],
+      "image": "data:image/png;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction à Python",
+          "description": "Comprendre les bases de Python et comment écrire des scripts simples."
+        },
+        {
+          "module_id": 2,
+          "title": "Structures de données en Python",
+          "description": "Apprendre à utiliser les listes, dictionnaires, et autres structures de données en Python."
+        },
+        {
+          "module_id": 3,
+          "title": "Automatisation avec Python",
+          "description": "Utiliser Python pour automatiser des tâches courantes."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Mock data",
+          "mail": "mock.data@example.com"
+        },
+        {
+          "fullName": "Alan Turing",
+          "mail": "alan.turing@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Développement mobile avec Flutter",
+      "description": "Apprenez à créer des applications mobiles avec Flutter",
+      "monthDuration": 8,
+      "difficulty": "Intermédiaire",
+      "euroPrice": 2500,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["Dart", "Flutter"],
+      "acquiredCompetence": ["Développement mobile", "Flutter", "Dart", "Création d'applications multiplateformes"],
+      "languageRequirements": ["Dart"],
+      "image": "data:image/png;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction à Flutter",
+          "description": "Comprendre les bases de Flutter et Dart."
+        },
+        {
+          "module_id": 2,
+          "title": "Widgets Flutter",
+          "description": "Apprendre à utiliser les widgets pour construire des interfaces utilisateur."
+        },
+        {
+          "module_id": 3,
+          "title": "Projets mobiles",
+          "description": "Créer des projets mobiles concrets avec Flutter."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Mock data",
+          "mail": "mock.data@example.com"
+        },
+        {
+          "fullName": "Grace Hopper",
+          "mail": "grace.hopper@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Développement de jeux avec Unity",
+      "description": "Apprenez à créer des jeux vidéo avec Unity",
+      "monthDuration": 10,
+      "difficulty": "Avancé",
+      "euroPrice": 3000,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["C#", "Unity"],
+      "acquiredCompetence": ["Développement de jeux", "Unity", "C#", "Création de jeux 2D et 3D"],
+      "languageRequirements": ["C#"],
+      "image": "data:image/png;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction à Unity",
+          "description": "Comprendre les bases de Unity et C#."
+        },
+        {
+          "module_id": 2,
+          "title": "Développement de jeux 2D",
+          "description": "Apprendre à créer des jeux 2D avec Unity."
+        },
+        {
+          "module_id": 3,
+          "title": "Développement de jeux 3D",
+          "description": "Apprendre à créer des jeux 3D avec Unity."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Mock data",
+          "mail": "mock.data@example.com"
+        },
+        {
+          "fullName": "John Carmack",
+          "mail": "john.carmack@example.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "DevOps et Cloud Computing",
+      "description": "Apprenez les bases du DevOps et du Cloud Computing",
+      "monthDuration": 6,
+      "difficulty": "Intermédiaire",
+      "euroPrice": 2200,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["Python", "Shell"],
+      "acquiredCompetence": ["DevOps", "Cloud Computing", "AWS", "CI/CD"],
+      "languageRequirements": ["Python", "Shell"],
+      "image": "data:image/png;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction au DevOps",
+          "description": "Comprendre les principes fondamentaux du DevOps."
+        },
+        {
+          "module_id": 2,
+          "title": "Cloud Computing avec AWS",
+          "description": "Apprendre à utiliser les services AWS pour le Cloud Computing."
+        },
+        {
+          "module_id": 3,
+          "title": "CI/CD avec Jenkins",
+          "description": "Mettre en place des pipelines CI/CD avec Jenkins."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Mock data",
+          "mail": "mock.data@example.com"
+        },
+        {
+          "fullName": "Linus Torvalds",
+          "mail": "linus.torvalds@example.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Vue.js avancé",
+      "description": "Approfondissez vos compétences Vue.js avec des concepts avancés.",
+      "monthDuration": 6,
+      "difficulty": "Avancé",
+      "euroPrice": 2000,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["JavaScript", "Vue.js"],
+      "acquiredCompetence": ["Vue.js", "Développement d'applications web avancé", "Gestion d'état"],
+      "languageRequirements": ["JavaScript", "Vue.js"],
+      "image": "data:image/png;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Vue Router avancé",
+          "description": "Maîtrisez les fonctionnalités avancées de Vue Router pour la gestion de la navigation dans les applications Vue.js."
+        },
+        {
+          "module_id": 2,
+          "title": "Gestion d'état avec Vuex",
+          "description": "Apprenez à gérer l'état de l'application de manière efficace avec Vuex."
+        },
+        {
+          "module_id": 3,
+          "title": "Performance et optimisation",
+          "description": "Découvrez des techniques avancées pour améliorer les performances et optimiser les applications Vue.js."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "John Doe",
+          "mail": "john.doe@example.com"
+        },
+        {
+          "fullName": "Jane Smith",
+          "mail": "jane.smith@example.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Data Science avec Python",
+      "description": "Découvrez les fondamentaux de la science des données et de l'analyse avec Python.",
+      "monthDuration": 8,
+      "difficulty": "Intermédiaire",
+      "euroPrice": 2500,
+      "premium": false,
+      "deprecated": false,
+      "programmingLanguageUsed": ["Python"],
+      "acquiredCompetence": ["Python", "Science des données", "Analyse de données", "Visualisation de données"],
+      "languageRequirements": ["Python"],
+      "image": "data:image/jpeg;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction à la science des données",
+          "description": "Découvrez les concepts fondamentaux de la science des données et son importance dans divers domaines."
+        },
+        {
+          "module_id": 2,
+          "title": "Analyse de données avec pandas",
+          "description": "Maîtrisez l'utilisation de la bibliothèque pandas pour l'analyse et la manipulation de données en Python."
+        },
+        {
+          "module_id": 3,
+          "title": "Visualisation de données avec Matplotlib et Seaborn",
+          "description": "Apprenez à créer des visualisations de données efficaces avec Matplotlib et Seaborn."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Alice Johnson",
+          "mail": "alice.johnson@example.com"
+        },
+        {
+          "fullName": "Bob Smith",
+          "mail": "bob.smith@example.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Introduction à la robotique avancée",
+      "description": "Découvrez les concepts avancés de la robotique, y compris la vision par ordinateur, l'apprentissage automatique et la navigation autonome.",
+      "monthDuration": 6,
+      "difficulty": "Avancé",
+      "euroPrice": 3000,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["Python", "C++"],
+      "acquiredCompetence": ["Robotique avancée", "Vision par ordinateur", "Apprentissage automatique", "Navigation autonome"],
+      "languageRequirements": ["Français", "Anglais"],
+      "image": "data:image/png;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com/advanced_robotics",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Fondements de la robotique avancée",
+          "description": "Comprenez les principes fondamentaux de la robotique avancée, y compris la cinématique et la dynamique des robots."
+        },
+        {
+          "module_id": 2,
+          "title": "Vision par ordinateur pour la robotique",
+          "description": "Explorez comment les systèmes de vision par ordinateur sont utilisés dans les applications robotiques pour la perception et la reconnaissance d'objets."
+        },
+        {
+          "module_id": 3,
+          "title": "Apprentissage automatique pour la robotique",
+          "description": "Découvrez comment l'apprentissage automatique est appliqué pour la planification de mouvement et la prise de décision dans les systèmes robotiques."
+        },
+        {
+          "module_id": 4,
+          "title": "Navigation autonome",
+          "description": "Apprenez les techniques de navigation autonome utilisées par les robots pour se déplacer dans des environnements complexes sans intervention humaine."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Dr. Hiroshi Yamaguchi",
+          "mail": "hiroshi.yamaguchi@example.com"
+        },
+        {
+          "fullName": "Dr. Emily Chen",
+          "mail": "emily.chen@example.com"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Développement avancé d'applications Web",
+      "description": "Plongez dans le monde du développement avancé d'applications Web avec cette formation complète. Vous explorerez en profondeur les technologies front-end et back-end, y compris les frameworks populaires tels que React, Angular et Node.js. En plus de cela, vous maîtriserez des concepts avancés tels que l'authentification utilisateur, les API RESTful, la gestion de base de données et le déploiement sur le cloud. Préparez-vous à devenir un développeur Web compétent capable de créer des applications robustes et évolutives.",
+      "monthDuration": 8,
+      "difficulty": "Avancé",
+      "euroPrice": 2500,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["JavaScript", "TypeScript"],
+      "acquiredCompetence": ["Développement d'applications Web avancé", "React", "Angular", "Node.js", "Authentification utilisateur", "API RESTful", "Gestion de base de données", "Déploiement sur le cloud"],
+      "languageRequirements": ["Anglais", "Français", "Espagnol"],
+      "image": "data:image/png;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com/advanced_web_development",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction au développement Web avancé",
+          "description": "Explorez les concepts fondamentaux du développement Web avancé, y compris les architectures front-end et back-end."
+        },
+        {
+          "module_id": 2,
+          "title": "Frameworks front-end",
+          "description": "Découvrez les frameworks front-end les plus populaires tels que React et Angular, et apprenez à les utiliser pour créer des interfaces utilisateur dynamiques."
+        },
+        {
+          "module_id": 3,
+          "title": "Frameworks back-end",
+          "description": "Plongez dans le développement back-end avec des frameworks comme Node.js et Express, et apprenez à créer des API RESTful robustes."
+        },
+        {
+          "module_id": 4,
+          "title": "Authentification utilisateur avancée",
+          "description": "Maîtrisez les techniques d'authentification utilisateur avancées telles que OAuth et JWT pour sécuriser vos applications Web."
+        },
+        {
+          "module_id": 5,
+          "title": "Gestion de base de données",
+          "description": "Apprenez à intégrer et à manipuler des bases de données relationnelles et non relationnelles dans vos applications Web."
+        },
+        {
+          "module_id": 6,
+          "title": "Déploiement sur le cloud",
+          "description": "Découvrez comment déployer vos applications Web sur des plateformes de cloud computing telles que AWS, Azure et Google Cloud Platform."
+        },
+        {
+          "module_id": 7,
+          "title": "Sécurité des applications Web",
+          "description": "Explorez les meilleures pratiques de sécurité des applications Web et apprenez à protéger vos applications contre les menaces."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Dr. John Smith",
+          "mail": "john.smith@example.com"
+        },
+        {
+          "fullName": "Dr. Maria Garcia",
+          "mail": "maria.garcia@example.com"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Introduction à Flash Animation",
+      "description": "Cette formation vous initie à l'utilisation de Flash pour créer des animations interactives et des applications multimédias. Vous apprendrez à manipuler des objets graphiques, à animer des éléments, à incorporer du son et de la vidéo, et à publier vos créations pour le web. Bien que Flash soit une technologie dépréciée, cette formation peut toujours être utile pour comprendre les principes de base de l'animation et de l'interactivité.",
+      "monthDuration": 3,
+      "difficulty": "Intermédiaire",
+      "euroPrice": 1200,
+      "premium": false,
+      "deprecated": true,
+      "programmingLanguageUsed": ["ActionScript"],
+      "acquiredCompetence": ["Animation Flash", "Développement d'applications multimédias"],
+      "languageRequirements": [],
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEUjExHwOyLxOyIADxDwOB7yWknnOSEQERH3PCMUERAIEBCwLRzqOiGEJBifKhr0PCIcEhFUGxTbNyCWKBpoHxZjHhUdEhH9PiPAMR4YEhB2IhcACQ6SKBm2LxzUNR9BGBPJMx5MGhMqFBGnLBs5FhJzIRd+IxhJGRPzcWN2LZvBAAADCklEQVR4nO3ci3aiMBSFYSBVLl7ibQp2RGuddub9n3CcWW2XSFzkoF1mn+7/AcCvwRQ0Jop19zCI7v0SvjgK8aMQPwrxawgTTTmFQ00lbWEy/GkU9TGKDaGJ9JRaCtGjED8K8aMQPwrxoxA/CvGjED8K8aMQPwrxoxA/CvGjED8K8aMQPwrxoxA/CvGjEL8whXna6PGaY91UOCt6tHYAN8tG82uItxTOVnU9ElbXqzbRxNlp5SQPRFjUmRWXbdsnM+PPJZP/ysIRjmwsznUyZcK4UC6Ms/aBtAl3rZlSm/DHTLvwqfX6tQk3qXKhPagX1q2zaRM+axcmC/XCMbDQZj6VuEJbTXxqPz7hCKcm98jxfIgjbP2n84tCURRKotA7CkVRKIlC7ygURaEkCr2jUBSFkij0jkJRFEqi0DsKRVEoiULvKBT1xZ/qzzpyL1jDEY728452jnV7QEKPb9fKvWsUcYTdORbTUEghhRRSSCGFFFJI4Y2F3Xttl9jCZLjoavviOhCM0C679wV3HghH+A0+xaDwQhSKolAShd5RKIpCSRR6R6EoCiVR6B2FoiiURKF3FIqiUBKF3lEoKkzhsClc9jzO/xCEtrpm/7gwhYuGMLEX1r95FaZwe751gUnzPDXORXBdhSmszhfIDaeTzbR66kMMUpgezr9qTWyW2bLXjBOkMJ9ksaN+c2qQwtlcuzAq4sZkqlDYmmrUCfM312WqSXh+Z6pQmG4cg6hKeLxxa78TdQlnO9u6Tu8vTA9l86cG1zz15HN7Por3F0bRqplrRZd3+a9teWpMbHn3+9IoWje6ChhFj+Z1e7wS3jdUzsb1vtclEeaO5e+tzcvrdFRV1Wj69tsU/f5iQQuP47hOC2NMkea9n4EDF94gCvGjED8K8aMQPwrxoxA/CvGjED8K8aMQPwrxoxA/CvGjED8K8aMQPwrxoxA/CvGjED8K8aMQPwrxoxA/CvGjED8K8bsgTPVkPn4hdiKMk8TqKXEJPTbixukT1RCqjEL8KMTvWwgflDeIBsr78xcnNL1digCatAAAAABJRU5ErkJggg==",
+      "recognisedCertificate": false,
+      "url": "https://example.com/flash_animation",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction à Flash",
+          "description": "Découvrez l'interface de Flash et apprenez les bases de la création d'animations simples."
+        },
+        {
+          "module_id": 2,
+          "title": "Animation avancée",
+          "description": "Explorez des techniques avancées pour créer des animations plus complexes et dynamiques."
+        },
+        {
+          "module_id": 3,
+          "title": "Intégration multimédia",
+          "description": "Apprenez à incorporer du son, de la vidéo et d'autres éléments multimédias dans vos animations Flash."
+        },
+        {
+          "module_id": 4,
+          "title": "Publication pour le web",
+          "description": "Découvrez comment publier vos animations Flash sur le web pour qu'elles soient accessibles aux utilisateurs."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Dr. Michael Johnson",
+          "mail": "michael.johnson@example.com"
+        },
+        {
+          "fullName": "Dr. Laura Martinez",
+          "mail": "laura.martinez@example.com"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Formation complète en intelligence artificielle",
+      "description": "Cette formation complète en intelligence artificielle vous plonge dans les concepts, les techniques et les applications les plus avancés de ce domaine en pleine expansion. Vous explorerez un large éventail de sujets, notamment l'apprentissage automatique, le traitement du langage naturel, la vision par ordinateur, la robotique, les réseaux neuronaux, et bien plus encore. À la fin de cette formation, vous serez armé des compétences nécessaires pour aborder les défis complexes de l'intelligence artificielle et pour développer des solutions innovantes dans divers domaines.",
+      "monthDuration": 12,
+      "difficulty": "Avancé",
+      "euroPrice": 5000,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["Python"],
+      "acquiredCompetence": [
+        "Apprentissage automatique",
+        "Traitement du langage naturel",
+        "Vision par ordinateur",
+        "Robotique",
+        "Réseaux neuronaux",
+        "Analyse de données",
+        "Reconnaissance d'images",
+        "Modèles génératifs",
+        "Optimisation",
+        "Sélection de modèles",
+        "Validation croisée",
+        "Prétraitement de données",
+        "Déploiement de modèles",
+        "Systèmes experts",
+        "Logique floue",
+        "Apprentissage par renforcement",
+        "Séries chronologiques",
+        "Classification",
+        "Clustering",
+        "Détection d'anomalies",
+        "Interprétabilité des modèles",
+        "Évaluation de la performance",
+        "Éthique de l'intelligence artificielle"
+      ],
+      "languageRequirements": ["Anglais", "Français"],
+      "image": "data:image/png;base64,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",
+      "recognisedCertificate": true,
+      "url": "https://example.com/ai_training",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Fondements de l'intelligence artificielle",
+          "description": "Explorez les bases de l'intelligence artificielle, y compris les algorithmes, les structures de données et les principes de programmation."
+        },
+        {
+          "module_id": 2,
+          "title": "Apprentissage automatique",
+          "description": "Découvrez les techniques d'apprentissage automatique supervisé et non supervisé pour résoudre une variété de problèmes."
+        },
+        {
+          "module_id": 3,
+          "title": "Traitement du langage naturel",
+          "description": "Apprenez à analyser et à comprendre le langage humain à l'aide de techniques de traitement du langage naturel."
+        },
+        {
+          "module_id": 4,
+          "title": "Vision par ordinateur",
+          "description": "Explorez les méthodes de traitement d'images et de vidéos pour la reconnaissance d'objets, la détection de visages, et plus encore."
+        },
+        {
+          "module_id": 5,
+          "title": "Robotique et systèmes autonomes",
+          "description": "Découvrez comment les robots peuvent percevoir, agir et apprendre dans des environnements complexes."
+        },
+        {
+          "module_id": 6,
+          "title": "Réseaux neuronaux profonds",
+          "description": "Plongez dans les architectures de réseaux neuronaux profonds pour résoudre des problèmes de classification et de régression."
+        },
+        {
+          "module_id": 7,
+          "title": "Éthique de l'intelligence artificielle",
+          "description": "Explorez les implications éthiques de l'utilisation de l'intelligence artificielle et apprenez à concevoir des systèmes responsables."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Dr. Alexander Lee",
+          "mail": "alexander.lee@example.com"
+        },
+        {
+          "fullName": "Dr. Sophia Chen",
+          "mail": "sophia.chen@example.com"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Formation avancée en développement logiciel",
+      "description": "Cette formation avancée en développement logiciel vous offre une plongée profonde dans les technologies et les pratiques modernes du développement logiciel. Vous explorerez un large éventail de sujets, allant des langages de programmation populaires aux frameworks et aux méthodologies de développement agiles. À la fin de cette formation, vous maîtriserez les compétences nécessaires pour concevoir, développer et déployer des applications logicielles de haute qualité.",
+      "monthDuration": 6,
+      "difficulty": "Avancé",
+      "euroPrice": 3000,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["JavaScript", "Python", "Java", "C#", "C++", "Ruby", "Swift", "Go", "Kotlin"],
+      "acquiredCompetence": [
+        "Développement web",
+        "Développement mobile",
+        "Développement d'applications de bureau",
+        "Développement d'applications cloud",
+        "Développement d'API",
+        "Développement d'applications natives",
+        "Développement d'applications hybrides",
+        "Développement d'applications multiplateformes",
+        "Gestion de projet logiciel",
+        "Test logiciel",
+        "Débogage de code",
+        "Optimisation des performances",
+        "Sécurité des applications",
+        "Intégration continue",
+        "Livraison continue",
+        "Méthodologies agiles",
+        "Conception logicielle",
+        "Architecture logicielle",
+        "Base de données",
+        "Analyse de données",
+        "Machine Learning appliqué au développement",
+        "IoT appliqué au développement",
+        "Blockchain appliqué au développement",
+        "Développement de jeux vidéo"
+      ],
+      "languageRequirements": ["Anglais", "Français", "Espagnol", "Allemand", "Mandarin"],
+      "image": "https://example.com/software_development_course.jpg",
+      "recognisedCertificate": true,
+      "url": "https://example.com/advanced_software_development",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Fondements du développement logiciel",
+          "description": "Explorez les principes fondamentaux du développement logiciel, y compris les langages de programmation, les structures de données et les algorithmes."
+        },
+        {
+          "module_id": 2,
+          "title": "Développement web avancé",
+          "description": "Plongez dans les technologies avancées du développement web, y compris les frameworks front-end et back-end, les bases de données et la sécurité."
+        },
+        {
+          "module_id": 3,
+          "title": "Développement mobile",
+          "description": "Découvrez les techniques de développement mobile pour les plateformes iOS et Android, y compris les frameworks et les bonnes pratiques."
+        },
+        {
+          "module_id": 4,
+          "title": "Développement d'applications cloud",
+          "description": "Apprenez à concevoir, développer et déployer des applications cloud évolutives à l'aide de services cloud populaires."
+        },
+        {
+          "module_id": 5,
+          "title": "Méthodologies agiles",
+          "description": "Explorez les principes et les pratiques des méthodologies agiles, y compris Scrum, Kanban et Extreme Programming (XP)."
+        },
+        {
+          "module_id": 6,
+          "title": "Test logiciel",
+          "description": "Découvrez les techniques de test logiciel, y compris les tests unitaires, les tests d'intégration, les tests fonctionnels et les tests de performance."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Dr. Amanda Johnson",
+          "mail": "amanda.johnson@example.com"
+        },
+        {
+          "fullName": "Dr. Carlos Rodríguez",
+          "mail": "carlos.rodriguez@example.com"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Formation avancée en science des données",
+      "description": "Cette formation avancée en science des données vous plonge dans les techniques et les outils les plus récents pour extraire des informations précieuses à partir de données complexes. Vous explorerez un large éventail de sujets, allant de l'exploration et la visualisation des données à l'apprentissage automatique et l'analyse prédictive. À la fin de cette formation, vous serez prêt à aborder des problèmes de données réels et à développer des solutions innovantes dans divers domaines.",
+      "monthDuration": 9,
+      "difficulty": "Avancé",
+      "euroPrice": 4000,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["Python", "R", "SQL"],
+      "acquiredCompetence": [
+        "Exploration de données",
+        "Prétraitement de données",
+        "Analyse statistique",
+        "Visualisation de données",
+        "Apprentissage supervisé",
+        "Apprentissage non supervisé",
+        "Apprentissage par renforcement",
+        "Réseaux neuronaux",
+        "Traitement du langage naturel",
+        "Analyse de séries chronologiques",
+        "Analyse de données géospatiales",
+        "Analyse de données non structurées",
+        "Méthodes d'échantillonnage",
+        "Optimisation des modèles",
+        "Validation de modèle",
+        "Déploiement de modèle",
+        "Sécurité des données",
+        "Éthique des données",
+        "Gestion de projet en science des données",
+        "Communication des résultats"
+      ],
+      "languageRequirements": ["Anglais", "Français", "Espagnol", "Allemand", "Mandarin"],
+      "image": "https://example.com/data_science_course.jpg",
+      "recognisedCertificate": true,
+      "url": "https://example.com/advanced_data_science",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction à la science des données",
+          "description": "Découvrez les concepts fondamentaux de la science des données et les différentes étapes d'un projet de science des données."
+        },
+        {
+          "module_id": 2,
+          "title": "Exploration de données",
+          "description": "Apprenez à explorer et à analyser des ensembles de données pour en extraire des informations utiles."
+        },
+        {
+          "module_id": 3,
+          "title": "Prétraitement de données",
+          "description": "Découvrez les techniques de nettoyage, de transformation et de réduction de dimension des données."
+        },
+        {
+          "module_id": 4,
+          "title": "Analyse statistique",
+          "description": "Explorez les méthodes statistiques pour analyser et interpréter les données."
+        },
+        {
+          "module_id": 5,
+          "title": "Visualisation de données",
+          "description": "Apprenez à représenter graphiquement les données pour en extraire des insights."
+        },
+        {
+          "module_id": 6,
+          "title": "Apprentissage supervisé",
+          "description": "Découvrez les techniques d'apprentissage supervisé pour prédire des variables cibles à partir de données d'entraînement."
+        },
+        {
+          "module_id": 7,
+          "title": "Apprentissage non supervisé",
+          "description": "Explorez les techniques d'apprentissage non supervisé pour découvrir des structures cachées dans les données."
+        },
+        {
+          "module_id": 8,
+          "title": "Analyse de données textuelles",
+          "description": "Apprenez à analyser et à extraire des informations à partir de données textuelles."
+        },
+        {
+          "module_id": 9,
+          "title": "Apprentissage par renforcement",
+          "description": "Découvrez les bases de l'apprentissage par renforcement et ses applications en science des données."
+        },
+        {
+          "module_id": 10,
+          "title": "Réseaux neuronaux",
+          "description": "Plongez dans les architectures de réseaux neuronaux pour résoudre des problèmes complexes."
+        },
+        {
+          "module_id": 11,
+          "title": "Analyse de séries chronologiques",
+          "description": "Apprenez à analyser et à modéliser des données séquentielles pour faire des prévisions."
+        },
+        {
+          "module_id": 12,
+          "title": "Analyse de données géospatiales",
+          "description": "Explorez les méthodes d'analyse de données géographiques et leur application dans divers domaines."
+        },
+        {
+          "module_id": 13,
+          "title": "Méthodes d'échantillonnage",
+          "description": "Découvrez les techniques d'échantillonnage pour tirer des conclusions à partir de grands ensembles de données."
+        },
+        {
+          "module_id": 14,
+          "title": "Optimisation des modèles",
+          "description": "Apprenez à optimiser les performances des modèles de machine learning en ajustant les hyperparamètres."
+        },
+        {
+          "module_id": 15,
+          "title": "Validation de modèle",
+          "description": "Explorez les techniques de validation de modèle pour évaluer la performance des modèles de machine learning."
+        },
+        {
+          "module_id": 16,
+          "title": "Déploiement de modèle",
+          "description": "Apprenez à déployer des modèles de machine learning dans des environnements de production."
+        },
+        {
+          "module_id": 17,
+          "title": "Sécurité des données",
+          "description": "Découvrez les principes de base de la sécurité des données et les meilleures pratiques pour protéger les données sensibles."
+        },
+        {
+          "module_id": 18,
+          "title": "Éthique des données",
+          "description": "Explorez les questions éthiques liées à la collecte, au traitement et à l'utilisation des données."
+        },
+        {
+          "module_id": 19,
+          "title": "Gestion de projet en science des données",
+          "description": "Apprenez les principes de base de la gestion de projet appliquée à des projets de science des données."
+        },
+        {
+          "module_id": 20,
+          "title": "Communication des résultats",
+          "description": "Découvrez comment communiquer efficacement les résultats de vos analyses de données à des publics variés."
+        }
+      ],
+      "instructors": []
+    },
+    {
+      "id": 16,
+      "title": "JavaScript avancé",
+      "description": "Approfondissez vos compétences en JavaScript avec des concepts avancés et des projets dynamiques.",
+      "monthDuration": 6,
+      "difficulty": "Avancé",
+      "euroPrice": 2500,
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["JavaScript"],
+      "acquiredCompetence": ["JavaScript", "Développement Web Avancé"],
+      "languageRequirements": [],
+      "image": "https://th.bing.com/th/id/OIP.Mrb8EiYMlvcRFQY384KEHwHaKd?w=137&h=194&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "recognisedCertificate": true,
+      "url": "https://example.com",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Fonctions avancées en JavaScript",
+          "description": "Maîtrisez les fonctions avancées et les concepts de portée en JavaScript."
+        },
+        {
+          "module_id": 2,
+          "title": "Programmation Orientée Objet",
+          "description": "Explorez les principes de la programmation orientée objet en JavaScript."
+        },
+        {
+          "module_id": 3,
+          "title": "Frameworks JavaScript",
+          "description": "Découvrez les frameworks modernes comme React et Angular pour développer des applications web dynamiques."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "John Doe",
+          "mail": "john.doe@example.com"
+        },
+        {
+          "fullName": "Jane Smith",
+          "mail": "jane.smith@example.com"
+        },
+        {
+          "fullName": "David Johnson",
+          "mail": "david.johnson@example.com"
+        },
+        {
+          "fullName": "Emily Brown",
+          "mail": "emily.brown@example.com"
+        },
+        {
+          "fullName": "Michael Davis",
+          "mail": "michael.davis@example.com"
+        },
+        {
+          "fullName": "Sarah Wilson",
+          "mail": "sarah.wilson@example.com"
+        },
+        {
+          "fullName": "Christopher Taylor",
+          "mail": "christopher.taylor@example.com"
+        },
+        {
+          "fullName": "Amanda Martinez",
+          "mail": "amanda.martinez@example.com"
+        },
+        {
+          "fullName": "Daniel Anderson",
+          "mail": "daniel.anderson@example.com"
+        },
+        {
+          "fullName": "Jessica Thomas",
+          "mail": "jessica.thomas@example.com"
+        },
+        {
+          "fullName": "Matthew Hernandez",
+          "mail": "matthew.hernandez@example.com"
+        },
+        {
+          "fullName": "Lauren Moore",
+          "mail": "lauren.moore@example.com"
+        },
+        {
+          "fullName": "Andrew Jackson",
+          "mail": "andrew.jackson@example.com"
+        },
+        {
+          "fullName": "Olivia White",
+          "mail": "olivia.white@example.com"
+        },
+        {
+          "fullName": "James Lee",
+          "mail": "james.lee@example.com"
+        },
+        {
+          "fullName": "Elizabeth Clark",
+          "mail": "elizabeth.clark@example.com"
+        },
+        {
+          "fullName": "Joshua Hall",
+          "mail": "joshua.hall@example.com"
+        },
+        {
+          "fullName": "Laurence King",
+          "mail": "laurence.king@example.com"
+        },
+        {
+          "fullName": "Sophia Scott",
+          "mail": "sophia.scott@example.com"
+        },
+        {
+          "fullName": "William Green",
+          "mail": "william.green@example.com"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Cours de Python",
+      "description": "",
+      "monthDuration": "",
+      "difficulty": "Intermédiaire",
+      "euroPrice": "",
+      "premium": true,
+      "deprecated": false,
+      "programmingLanguageUsed": ["Python"],
+      "acquiredCompetence": ["Python", ""],
+      "languageRequirements": [],
+      "image": "",
+      "recognisedCertificate": false,
+      "url": "",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "",
+          "description": ""
+        },
+        {
+          "module_id": 2,
+          "title": "",
+          "description": ""
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "",
+          "mail": ""
+        },
+        {
+          "fullName": "",
+          "mail": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Formation sur les tests d'intégration continue",
+      "description": "Ce cours couvre les concepts avancés des tests d'intégration continue pour assurer la qualité du logiciel tout au long du processus de développement.",
+      "monthDuration": 3,
+      "difficulty": "Avancé",
+      "euroPrice": 299,
+      "premium": false,
+      "deprecated": true,
+      "programmingLanguageUsed": ["Java", "C#"],
+      "acquiredCompetence": ["Tests d'Intégration Continue", "Qualité Logicielle"],
+      "languageRequirements": ["Français", "Anglais"],
+      "image": "https://example.com/image.png",
+      "recognisedCertificate": false,
+      "url": "https://example.com/courses/continuous-integration-testing",
+      "modules": [
+        {
+          "module_id": 1,
+          "title": "Introduction aux tests d'intégration continue",
+          "description": "Présentation des principes de base et de l'importance des tests d'intégration continue dans le développement logiciel moderne."
+        },
+        {
+          "module_id": 2,
+          "title": "Outils avancés de CI/CD",
+          "description": "Exploration approfondie des outils tels que Jenkins, Travis CI, et GitLab CI pour automatiser le processus de développement et de déploiement."
+        },
+        {
+          "module_id": 3,
+          "title": "Stratégies de tests avancées",
+          "description": "Analyse des meilleures pratiques pour la mise en place de stratégies de tests robustes et évolutives dans des environnements complexes."
+        }
+      ],
+      "instructors": [
+        {
+          "fullName": "Jean Dupont",
+          "mail": "jean.dupont@example.com"
+        },
+        {
+          "fullName": "Sophie Martin",
+          "mail": "sophie.martin@example.com"
+        }
+      ]
     }
+    
   ]
 }
