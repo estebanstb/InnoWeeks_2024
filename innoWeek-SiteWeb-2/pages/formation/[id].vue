@@ -4,7 +4,8 @@ import formation from '~/data/formation.json'
 const route = useRoute();
 const items = ref(formation.formations)
 let data = ref(null)
-let idRoute = route.params.id;
+let idRoute = route.params.id
+const token = ref()
 
 items.value.forEach(element => {
     if (element.id == idRoute) {
@@ -16,6 +17,9 @@ function goToWebSite(url) {
     window.open(url, '_blank');
 }
 
+onMounted(() => {
+    token.value = localStorage.getItem('userId')
+})
 </script>
 <template>
     <div>
@@ -85,6 +89,12 @@ function goToWebSite(url) {
                             <p><a :href="`mailto:${instructor.mail}`">{{ instructor.mail }}</a></p>
                         </div>
                     </div>
+                    <UButton v-if="data.premium && token == null">
+                        Connectez vous pour faire la formation
+                    </UButton>
+                    <UButton v-else>
+                        Faire la formation
+                    </UButton>
                 </div>
             </div>
 
@@ -95,6 +105,7 @@ function goToWebSite(url) {
 .instructor {
     padding-bottom: 20px;
 }
+
 .warning {
     width: 100%;
     background-color: #FF0000;

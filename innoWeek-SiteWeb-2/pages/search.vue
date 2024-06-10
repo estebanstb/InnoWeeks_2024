@@ -9,16 +9,20 @@
       }">
 
         <template #header><p> Étape {{ step }} - {{ title[step - 1] }}</p></template>
+        <!-- step 1 -->
         <USelectMenu v-if="step == 1" v-model="technology" :options="programLanguage" multiple
           placeholder="Selectionner les technologies maîtrisées" searchable searchable-placeholder="Search a technology..." />
+        <!-- step 2 -->
         <div v-if="step == 2">
           <p>Prix minimum:</p>
           <UInput color="white" variant="outline" type="text" v-model="min" placeholder="minimum" />
           <p>Prix maximum:</p>
           <UInput color="white" variant="outline" type="text" v-model="max" placeholder="maximum" />
         </div>
+        <!-- step 3 -->
         <USelectMenu v-if="step == 3" v-model="niveau" :options="niveauInformatique"
           placeholder="Votre niveau" />
+        <!-- step 4 -->
         <div v-if="step == 4">
           <p>Temps de la formation</p>
           <UInput color="white" variant="outline" type="text" v-model="time" placeholder="Temps de la formation (mois)" />
