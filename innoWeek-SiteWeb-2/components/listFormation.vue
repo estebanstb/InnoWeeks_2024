@@ -9,7 +9,8 @@ const props = defineProps({
 <template>
     <div>
         <h2 class="font-bold text-6xl">{{ title }}</h2>
-        <UCard v-for="item in formation" :key="item.id" class="black-bg">
+        <div class="card">
+            <UCard v-for="item in formation" :key="item.id" class="black-bg">
             <div class="flex justify-between">
                 <div class="flex">
                     <img :src="item.image" class="w-28 mr-8" alt="">
@@ -24,7 +25,7 @@ const props = defineProps({
                 </div>
                 <div class="flex flex-collum">
                     <div class="crown-container">
-                        <img v-if="item.premium" src="../public/crown.png" alt="premium" class="crown">
+                        <img v-show="item.premium" src="../public/crown.png" alt="premium" class="crown">
                     </div>
 
                     <NuxtLink class="placement" :to="{ name: 'formation-id', params: { id: item.id } }">
@@ -35,13 +36,20 @@ const props = defineProps({
                 </div>
             </div>
         </UCard>
+        </div>
     </div>
 
 </template>
 
 <style scoped>
+.card {
+    min-width: 500px;
+}
 .crown-container {
-
+    margin-top: -100%;
+    margin-right: -100%;
+    margin-left: 90%;
+    margin-bottom: 150px;
 }
 
 .crown {
