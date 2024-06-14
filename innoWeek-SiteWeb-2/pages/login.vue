@@ -28,7 +28,7 @@ const control = () => {
         {
             if(element.password == password.value)
             {
-                console.log("réussi")
+                alert("réussi")
                 return localStorage.setItem("userId", element.user_id)
             }
         }
