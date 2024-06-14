@@ -13,7 +13,7 @@ const props = defineProps({
             <UCard v-for="item in formation" :key="item.id" class="black-bg">
             <div class="flex justify-between">
                 <div class="flex">
-                    <img :src="item.image" class="w-28 mr-8" alt="">
+                    <img :src="item.image" class="h-28 mr-8" alt="">
                     <div>
                         <p class="font-bold">{{ item.title }}</p>
                         <p class="font-thin">{{ item.description }}</p>
