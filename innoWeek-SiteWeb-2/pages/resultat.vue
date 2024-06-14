@@ -47,4 +47,16 @@ const route = useRoute()
 
 <template>
     <ListFormation v-if="formValid.length" :title="'Formation proposée'" :formation="formValid"/>
+    <div v-else class="height">
+        <p>Aucune formation ne correspond à vos critères</p>
+    </div>
 </template>
+
+<style scoped>
+    .height{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
