@@ -46,7 +46,7 @@ const route = useRoute()
 </script>
 
 <template>
-    <ListFormation v-if="formValid.length" :title="'Formation proposée'" :formation="formValid"/>
+    <ListFormation class="min-height" v-if="formValid.length" :title="'Formation proposée'" :formation="formValid"/>
     <div v-else class="height">
         <p>Aucune formation ne correspond à vos critères</p>
     </div>
@@ -58,5 +58,8 @@ const route = useRoute()
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .min-height{
+        min-height: 80vh;
     }
 </style>

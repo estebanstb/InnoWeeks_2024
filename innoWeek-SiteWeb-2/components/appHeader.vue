@@ -1,6 +1,8 @@
 <template>
     <div class="p-2 flex justify-between px-28">
-        <p class="font-bold text-4xl flex items-center">ITFORM</p>
+        <NuxtLink to="/">
+            <p class="font-bold text-4xl flex items-center">ITFORM</p>
+        </NuxtLink>
         <ul class="flex items-center">
             <li>
                 <NuxtLink to="/">
