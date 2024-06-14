@@ -21,6 +21,7 @@ onMounted(() => {
 
 const pseudo = ref()
 const password = ref()
+const isConnect = ref(false)
 
 const control = () => {
     allUser.value.forEach(element => {
@@ -28,11 +29,16 @@ const control = () => {
         {
             if(element.password == password.value)
             {
-                alert("réussi")
+                alert("Connexion réussi")
+                isConnect.value = true
                 return localStorage.setItem("userId", element.user_id)
             }
         }
     });
+    if(!isConnect.value)
+    {
+        alert("Utilisateur ou mot de passe incorrect")
+    }
 }
 
 </script>
