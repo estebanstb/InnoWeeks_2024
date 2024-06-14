@@ -48,7 +48,7 @@ onMounted(() => {
                             <p v-else>certificat non reconnu</p>
                         </div>
 
-                        <button type="button" @click="goToWebSite(data.url)">Site</button>
+                        <button class="button" type="button" @click="goToWebSite(data.url)">Site</button>
                     </div>
 
                     <div class="long_information">
@@ -89,12 +89,18 @@ onMounted(() => {
                             <p><a :href="`mailto:${instructor.mail}`">{{ instructor.mail }}</a></p>
                         </div>
                     </div>
-                    <UButton v-if="data.premium && token == null">
-                        Connectez vous pour faire la formation
-                    </UButton>
-                    <UButton v-else>
-                        Faire la formation
-                    </UButton>
+                    <div class="flex justify-center">
+
+                        <NuxtLink v-if="data.premium && token == null" to="/login">
+                            <UButton class="button">
+                                Connectez vous pour faire la formation
+                            </UButton>
+                        </NuxtLink>
+                        <UButton class="button" v-else>
+                            Faire la formation
+                        </UButton>
+                    </div>
+
                 </div>
             </div>
 
@@ -102,6 +108,10 @@ onMounted(() => {
     </div>
 </template>
 <style scoped>
+.button:hover {
+    background-color: #00CFC3;
+}
+
 .instructor {
     padding-bottom: 20px;
 }
@@ -260,9 +270,7 @@ h3 {
 }
 
 #logo {
-    max-width: 250px;
     max-height: 350px;
-    min-width: 200px;
     min-height: 300px;
     padding-top: 20px;
 }
