@@ -11,7 +11,7 @@
         <template #header><p> Étape {{ step }} - {{ title[step - 1] }}</p></template>
         <!-- step 1 -->
         <USelectMenu v-if="step == 1" v-model="technology" :options="programLanguage" multiple
-          placeholder="Selectionner les technologies maîtrisées" searchable searchable-placeholder="Search a technology..." />
+          placeholder="Selectionner les technologies maîtrisées" searchable searchable-placeholder="Chercher une technologie..." />
         <!-- step 2 -->
         <div v-if="step == 2">
           <p>Prix minimum:</p>
@@ -24,13 +24,12 @@
           placeholder="Votre niveau" />
         <!-- step 4 -->
         <div v-if="step == 4">
-          <p>Temps de la formation</p>
-          <UInput color="white" variant="outline" type="text" v-model="time" placeholder="Temps de la formation (mois)" />
+          <UInput color="white" variant="outline" type="text" v-model="time" placeholder="Durée maximum de la formation (mois)" />
         </div>
         <template #footer>
           <div class="flex justify-between">
-            <UButton :disabled="step == 1" @click="previous" color="white">Previous</UButton>
-            <UButton v-if="step != numberStep" @click="next">Next</UButton>
+            <UButton :disabled="step == 1" @click="previous" color="white">Précédent</UButton>
+            <UButton v-if="step != numberStep" @click="next">Suivant</UButton>
             <NuxtLink v-else :to="{ name: 'resultat', query: { technologie: technology, niveau: niveau, min: min, max:max, temps: time } }">
               <UButton>Finish</UButton>
             </NuxtLink>

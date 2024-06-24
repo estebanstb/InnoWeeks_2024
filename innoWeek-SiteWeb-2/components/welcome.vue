@@ -5,7 +5,7 @@
         <p>Rechercher la formation pour votre avenir</p>
         <NuxtLink class="margin" to="search">
             <UButton class="blue-color-bg">
-                Search
+                Rechercher
             </UButton>
         </NuxtLink>
     </UContainer>
